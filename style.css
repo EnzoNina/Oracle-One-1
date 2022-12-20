@@ -1,0 +1,64 @@
+header,
+body {
+  background-color: #e9ecf8;
+  font-family: "inter";
+  font-size: 16px;
+}
+h3 {
+  color: #0a3871;
+}
+span#chico {
+  color: #495057;
+}
+button#encri {
+  width: 328px;
+  height: 67px;
+  color: white;
+  background: #0a3871;
+  border-radius: 50px;
+  font-size: 16px;
+}
+button#des {
+  width: 328px;
+  height: 67px;
+  color: #0a3871;
+  background: #d8dfe8;
+  border-radius: 50px;
+  font-size: 16px;
+}
+button#copiar {
+  display: none;
+  width: 300px;
+  height: 57px;
+  color: #0a3871;
+  background: #d8dfe8;
+  border-radius: 50px;
+  font-size: 16px;
+}
+div.contenido {
+  display: flex;
+}
+div.resultado {
+  background-color: white !important;
+  margin-left: 20px;
+  height: 60vmin;
+  width: 330px;
+  text-align: center;
+  border-radius: 5%;
+}
+div.final {
+  margin-top: 20px;
+  margin-left: 50px;
+  display: inline-block;
+  font-size: 16px;
+}
+div.botones {
+  position: fixed;
+  font-size: 16px;
+}
+input#text {
+  font-style: normal #0a3871;
+  font-size: 25px;
+  height: 60vmin;
+  width: 80%;
+}

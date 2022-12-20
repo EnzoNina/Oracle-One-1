@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <img src="alura.png" alt="Alura-Icon">
+    <h3>Ingrese el texto aqui</h3>
+</header>
+
+<body>
+    <div class="contenido">
+        <input type="text" name="text" id="text" placeholder="Ingrese Texto" />
+        <div class="resultado" id="resultado">
+            <div class="resu" id="resu">
+                <img src="img.png" alt="Imagen" style="margin-top: 25px;" />
+                <br />
+                <strong>Ningún mensaje fue encontrado</strong>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <button id="copiar" onclick="copiarAlPortapapeles('resu')">Copiar</button>
+        </div>
+    </div>
+
+    <div class="final">
+        <h5> <span id="chico">Solo letras minúsculas y sin acentos</span></h5>
+        <div class="botones">
+            <button id="encri" onclick="encriptar()">Encriptar</button>
+            <button id="des" onclick="descriptar()">Desencriptar</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
